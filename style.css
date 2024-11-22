@@ -1,0 +1,390 @@
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+.image {
+    background-image: url("img/osmon3.jpg") ;
+    height: 465px;
+    width: 100%;
+    padding: 0px 50px 10px 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.trassa {
+    background-color: grey;
+    width: 1900px;
+    height: 150px;
+    position: relative;
+}
+@keyframes trassa_harakati {
+    from {
+        translate: 0px; 
+    }
+    to {
+        translate: 2000px;
+    }
+}
+.car {
+    width: 310px;
+    height: 160px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: yellow;
+    left: 30px;
+    bottom: 50px;
+    position: absolute;
+    padding: 5px;
+    animation: trassa_harakati 15s;
+
+}
+.window {
+    width: 60px;
+    height: 75px;
+    border-radius: 5px 5px 0 0;
+    background-color: black;
+    position: relative;
+}
+.windoW {
+    width: 80px;
+    height: 75px;
+    border-radius: 5px 5px 0 0;
+    background-color: black;
+
+}
+.window1 {
+    width: 20px;
+    height: 75px;
+    border-radius: 5px 5px 0 0;
+    background-color: black;
+    position: relative;
+}
+.windows {
+    display: flex;
+    gap: 5px;
+}
+.yellow {
+    height: 5px;
+    width: 60px;
+    background-color: yellow;
+    position: absolute;
+    top: 20px;
+}
+.yellow1 {
+    height: 75px;
+    position: absolute;
+    width: 5px;
+    background-color: yellow;
+    left: 26px;
+}
+.window2 {
+    width: 60px;
+    height: 75px;
+    border-radius: 5px 5px 0 0;
+    background-color: black;
+    position: relative;
+}
+.balon {
+    background-color: black;
+    border-radius: 9999px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 40px;
+    top: 145px;
+    animation: balon_aylanish 30s infinite;
+
+}
+@keyframes balon_aylanish{
+     
+    to {
+        rotate: 15000deg;
+    }
+}
+.balon2 {
+    background-color: black;
+    border-radius: 9999px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 220px;
+    top: 145px;
+    animation: balon_aylanish 30s infinite;
+
+}
+
+.aqlvoy {
+    left: 70px;
+    font-size: 45px;
+    position: absolute;
+    font-family:cursive;
+    top: 50px;
+}
+.white1 {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 9999px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.tochka {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 9999px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.fara {
+    width: 12px;
+    height: 40px;
+    background-color: red;
+    border-radius: 0px 0px 15px 0px;
+    position: absolute;
+    left: 0px; 
+    top: 90px;
+}
+.fara2 {
+    width: 10px;
+    height: 7px;
+    position: absolute;
+    border-radius: 0px 2px 2px 0px;
+    top: 10px;
+    background-color: yellow;
+}
+.fara3 {
+    width: 5px;
+    height: 5px;
+    top: 23px;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 9999px;
+}   
+.oldi__fara {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 0px 0px 0px 9999px;
+    position: absolute;
+    left: 296px; 
+    top: 120px;
+    border: black solid 2px;
+}
+.fara7 {
+    width: 20px;
+    height: 5px;
+    background-color: red;
+    top: 3px;
+    position: absolute;
+    
+}
+.fara6 {
+    width: 5px;
+    height: 5px;
+    border-radius: 9999px;
+    background-color: rgb(255, 115, 0);
+    top: 10px;
+    left: 15px;
+    position: absolute;
+}
+.uxti {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 800px;
+    top: 70px;
+}
+.uxti2 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 700px;
+    top: 70px;
+}
+.uxti3 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 600px;
+    top: 70px;
+}
+.uxti3 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 900px;
+    top: 70px;
+}
+.uxti4 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 600px;
+    top: 70px;
+}
+.uxti5 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    top: 70px;
+}
+.uxti6 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 400px;
+    top: 70px;
+}
+.uxti7 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 600px;
+    top: 70px;
+}
+.uxti8 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+}.uxti9 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1100px;
+    top: 70px;
+}.uxti10 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+}
+.uxti11 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1300px;
+    top: 70px;
+}
+.uxti12 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1400px;
+    top: 70px;
+}
+.uxti13 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1500px;
+    top: 70px;
+}
+.uxti14 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1600px;
+    top: 70px;
+}
+.uxti15 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1700px;
+    top: 70px;
+}
+.uxti16 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1800px;
+    top: 70px;
+}
+.uxti17 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 1900px;
+    top: 70px;
+}
+.uxti18 {
+    width: 50px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 2000px;
+    top: 70px;
+}
+.sakadiska {
+    width: 5px;
+    height: 17px;
+    position: absolute;
+    left: 12px;
+    background-color: black;
+}
+.sakadiska2 {
+    width: 5px;
+    height: 17px;
+    position: absolute;
+    left: 6px;
+    top: 15px;
+    background-color: black;
+    transform: rotate(40deg);
+}
+.sakadiska3 {
+    width: 5px;
+    height: 17px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    background-color: black;
+    transform: rotate(-40deg);
+
+}
+.sakadiska4 {
+    width: 17px;
+    height: 5px;
+    position: absolute;
+    top: 11px;
+    background-color: black;
+    transform: rotate(10deg);
+
+}
+.sakadiska5 {
+    width: 17px;
+    height: 5px;
+    position: absolute;
+    top: 10px;
+    background-color: black;
+    left: 18px;
+    transform: rotate(-10deg);
+}
